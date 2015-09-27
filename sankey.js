@@ -107,6 +107,9 @@ d3.sankey = function() {
   // Nodes are assigned the maximum breadth of incoming neighbors plus one;
   // nodes with no incoming links are assigned breadth zero, while
   // nodes with no outgoing links are assigned the maximum breadth.
+
+
+
   function computeNodeBreadths() {
     var remainingNodes = nodes,
         nextNodes,
